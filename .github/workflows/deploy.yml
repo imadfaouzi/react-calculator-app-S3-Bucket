@@ -42,7 +42,7 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync build/ s3://imad-terraform-bucket-cdn/ --delete
+        aws s3 sync build/ s3://imad-terraform-bucket-cdn-2/ --delete
 
 
 
