@@ -15,6 +15,7 @@ const btnValues = [
 function App() {
   return (
     <CalcProvider>
+      <h3>HELLO VERSION 2.3.0</h3>
       <Wrapper>
         <Screen />
         <ButtonBox>
